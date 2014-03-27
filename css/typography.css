@@ -1,0 +1,172 @@
+
+/*
+  Colour Palette
+  - Bright red: #D23C3F - rgb(210, 60, 63)
+  - Dark red: #5A1011 - rgb(90, 16, 17)
+  - Faint red: #CCB6B6 - rgb(204, 182, 182)
+ */
+ 
+html {
+  font: normal 100%/1.5 'Exo 2'; /* 16px/24px */
+}
+
+
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem 0em;
+}
+
+
+.yotta {
+  font-size: 3.5832rem;
+  line-height: 1.2559;
+}
+
+.zetta {
+  font-size: 2.9860rem;
+  line-height: 1.0047;
+}
+
+h1, .exa {
+  font-size: 2.4883rem;
+  line-height: 1.2056;
+}
+
+h2, .peta {
+  font-size: 2.0736rem;
+  line-height: 1.4468;
+}
+
+h3, .tera {
+  font-size: 1.7280rem;
+  line-height: 1.7361;
+}
+
+h4, .giga {
+  font-size: 1.4400rem;
+  line-height: 1.0417;
+}
+
+h5, .mega {
+  font-size: 1.2000rem;
+  line-height: 1.2500;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.8333rem;
+  line-height: 1.8000;
+}
+
+.micro {
+  font-size: 0.6944rem;
+  line-height: 2.1600;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color:#24ACDA;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.brand-family {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.brand-color{
+	color:#649B8B;
+}
+
+::selection{
+	background-color: #5A1011;
+	color: #fff;
+}
+
+a,
+a:link {
+	color: #554848;
+	text-decoration: none;
+	border-bottom: 0.1rem solid #5A1011;
+	transition: all 200ms linear;
+}
+
+a:visted{
+	color:#CCB6B6;
+	border-bottom-color: #CCB6B6;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #CCB6B6;
+	border-bottom-color: #CCB6B6;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li:before {
+	color: #666;
+	position: absolute;
+	left: -1.2em;
+}
+
+mark{
+	background-color: #BCD2E1;
+}
+
+a{}
+
+em{}
+
+strong{}
+
+i{}
+
+b{}
+
+small{}
+
+s{}
+
+cite{
+	color: #6E9BBC;
+}
+
+q{}
+
+dfn{}
+
+time{}
+
+sup{
+	color: #6E9BBC;
+}
+
+sub{
+	color: #6E9BBC;
+}
+
+del{}
+
+data{}
+
+ins{}
+
+table{}
+
+th{
+	color: #5C4445;
+}
+
+td{}
+
+>>>>>>> e386504318dc65c81642b5e2deb9f201b7bbe094
+caption{}
