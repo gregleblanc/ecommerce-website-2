@@ -26,6 +26,7 @@
 }
 
 .large{
+	padding-bottom:-10px;
 	padding-top:8px;
 	background-color:#8CCAE0;
 	width:812px;
@@ -34,11 +35,18 @@
 
 .large h2{
 	font-size:60px;
-	margin-bottom:-20px;
-	margin-left:-5px;
+	margin-bottom:-15px
 }
+
+.large h3{
+	margin-top:-20px;
+	font-size:60px;
+	margin-bottom:-3px
+}
+
 
 .large-thumb {
 	padding: 0px 25px 0px 7px;
 	float:left;
 }
+
