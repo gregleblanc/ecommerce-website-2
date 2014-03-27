@@ -1,3 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.small{
+	padding-top:8px;
+	background-color:#8CCAE0;
+	width:290px;
+}
+
+
+.small h2{
+	margin-top:-3rem;
+	padding-bottom: .3rem;
+	font-size:52px;
+}
+.small p{
+	margin-top:-1.8rem;
+	margin-bottom:3.3rem;
+}
+	
+
+.small-thumb {
+	padding: 0px 7px 0px 7px;
+	float:left;
+}
