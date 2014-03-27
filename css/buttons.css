@@ -4,10 +4,11 @@
 .btn{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:600;
-	padding: 5px 1% 5px 1%;
+	padding: 2px 1% 5px 1%;
 	background:#119AD1;
-	width:3em;
-	height:2rem;
+	width:5em;
+	height:1.5rem;
+	text-align:center;
 }
 
 .btn:hover{

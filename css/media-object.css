@@ -4,53 +4,6 @@
 
 
 
-<!------Search bar -------------------------------------------------------------->
-
-#tfheader{
-		background-color:#c3dfef;
-	}
-	#tfnewsearch{
-		float:right;
-		padding:20px;
-	}
-	.tftextinput{
-		border: none;
-		margin: 0;
-		padding: 5px 15px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size:14px;
-		
-	}
-	.tfbutton {
-		border: none;
-		margin: 0;
-		padding: 5px 15px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size:14px;
-		outline: none;
-		cursor: pointer;
-		text-align: center;
-		text-decoration: none;
-		color: #ffffff;
-		background: #0095cd;
-
-	
-
-	}
-	.tfbutton:hover {
-		text-decoration: none;
-		background: #007ead;
-	
-	}
-	/* Fixes submit button height problem in Firefox */
-	.tfbutton::-moz-focus-inner {
-	  border: 0;
-	}
-	.tfclear{
-		clear:both;
-	}
-<!------Search bar -------------------------------------------------------------->
-
 
 
 
