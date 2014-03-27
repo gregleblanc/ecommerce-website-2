@@ -3,6 +3,7 @@
 
 .btn{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
 	font-weight:600;
 	padding: 2px 1% 5px 1%;
 	background:#119AD1;
@@ -12,8 +13,8 @@
 }
 
 .btn:hover{
-	opacity: 0.4;
-	color:#E0E27E;
+	background-color:#89CBE5;
+	color:#FFFFFF;
 }
 
 .btn-search{

@@ -1,9 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.wrapper{
-	position:absolute;
-	margin-top:150px;
+
+.sect-2 h3{
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom:-10px;
+}
+
+
+
+.products li{
+	float:left;
+	margin-right: 25px;
 }
 
 .logo{
@@ -13,9 +22,7 @@
 	margin-left: 10px;
 }
 
-.nav li{
-	display: inline;
-}
+
 
 .nav-bg{
 	width:100%;
@@ -24,8 +31,34 @@
 	margin-bottom: 100px;
 }
 
-.nav-list li a{
-	padding:-5px;
+
+@media only screen and (max-width: 26.9em) {
+	.nav-bg{
+		height:80px;
+	}
+	.tfbutton {
+		width: 80px;
+	}
+.tftextinput{
+	width: 80px;
+}
+
+}
+
+
+.nav-list{
+	margin-left:30%;
+}
+@media only screen and (max-width: 42.9em) {
+.nav-list{
+	margin-top:-2px;
+ margin-left:0;
+}
+.nav-list li {
+	margin-left:-40px;
+}
+
+
 }
 
 <!------Search bar -------------------------------------------------------------->

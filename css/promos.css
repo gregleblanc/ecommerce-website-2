@@ -50,3 +50,41 @@
 	float:left;
 }
 
+@media only screen and (max-width: 42.9em) {
+	
+.large{ 
+	width:100%;
+	height: 580px;
+	text-align: center;
+}
+	
+
+.large-thumb{
+	width: 80%;
+	margin: 0;
+	padding: 0 10% 0 10%;
+}
+	
+}
+
+@media only screen and (max-width: 26.9em) {
+	
+.large{ 
+	width:100%;
+	height: 400px;
+	text-align: center;
+
+}
+	
+.large h2{
+	font-size:36px;
+}
+.large-thumb{
+	width: 80%;
+	margin: 0;
+	padding: 0 10% 0 10%;
+}
+
+
+	
+}

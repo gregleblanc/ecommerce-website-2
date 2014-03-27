@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a,
 a:link {
-	color: #554848;
+	color: #FFF;
 	text-decoration: none;
 	transition: all 200ms linear;
 }
@@ -105,7 +105,7 @@ a:visted{
 a:hover,
 a:focus,
 a:active {
-	color: #CCB6B6;
+	color: #FFF;
 	border-bottom-color: #CCB6B6;
 }
 
