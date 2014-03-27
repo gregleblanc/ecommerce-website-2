@@ -6,10 +6,26 @@
 }
 
 .item{
+	width:120px;
+	background-color:#BBE1EF;
 	text-align: center;
+}
+
+.item:hover img{
+	opacity: 0.4;
 }
 
 .item h2{
 	margin-top:-2rem;
 	font-size:60px;
 }
+.item h4{
+	margin-top:.5rem;
+}
+
+.item img{
+	padding-top:10px;
+	width:100px;
+	z-index:-100;
+}
+
