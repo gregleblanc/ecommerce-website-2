@@ -1,7 +1,17 @@
 ---
-layout: default
+layout: products
 title: Products
 ---
 
-<h1>Shoes</h1>
-<h2></h2>
+<h1>Products</h1>
+<h2>Shirts</h2>
+
+<ul>
+	{% for product in site.pages %}
+		{% if product.category == 'shirts' %}
+			<li>
+				{{product.title}}
+			</li>
+		{% endif %}
+	{% endfor %}
+<ul>

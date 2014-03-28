@@ -4,16 +4,13 @@ title: Products
 ---
 
 <h1>Products</h1>
-<h2></h2>
+<h2>Shirts</h2>
 
 <ul>
-	{% for dino in site.pages %}
-		{% if dino.category == 'dinosaur' %}
+	{% for product in site.pages %}
+		{% if product.category == 'shirts' %}
 			<li>
-				<a href="{{site.baseurl}}{{dino.url}}">
-					<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
-				{{dino.name}}
-				</a>
+				{{product.title}}
 			</li>
 		{% endif %}
 	{% endfor %}
