@@ -24,24 +24,57 @@ footer p{
 	text-align:center;
 }
 
-.small h2{
-	
+.bodyc h2{
+	color: #fff;
+}
+
+.bodyc h1{
+	margin-bottom:-5px;
 }
 
 
 @media only screen and (max-width: 47.500em) {
 .small-thumb{
-	width:50%;
-	float:  none;
+	width:93%;
+	float:  none;	
+}
+
+.small {
 	
+	text-align: center;
+	width: 100%;
+	padding: 0 -5% 0 -5%;
+}
+
+.bodyc{
+	width: 70%;
+	margin-left: -17%;
+}
+
+.bodyc h1{
+	margin-top: 150px;
+}
+
+.large{
+	height: 270px;
+}
 	
 }
+
+@media only screen and (max-width: 43.500em) {
+.large{
+	height: 600px;
 }
-	
-	
-.small{
-	min-width:300px;
+
+
 }
+
+
+
+
+
+
+
 .current{
 	color:#1C4778;
 }
@@ -120,6 +153,22 @@ nav-bottom p{
 	text-align: center;
 }
 
+@media only screen and (max-width: 52.500em) {
+		
+	.banner h2{
+	font-size:80px;
+	background-color: rgba(36,36,36,0.79);
+	left:0px;
+	margin-left:50px;
+	line-height: 80px;
+	text-align: center;
+}
+}
+
+
+
+
+
 @media only screen and (max-width: 26.9em) {
 	.nav-bg{
 		height:80px;
@@ -154,6 +203,7 @@ nav-bottom p{
 #tfheader{
 		float: left;
 		background-color:#c3dfef;
+		z-index:100;
 	}
 	#tfnewsearch{
 		float:left;
@@ -197,3 +247,11 @@ nav-bottom p{
 	}
 <!------Search bar -------------------------------------------------------------->
 
+
+	
+	
+	
+	
+	
+	
+	
