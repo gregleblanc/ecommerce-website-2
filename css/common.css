@@ -24,6 +24,24 @@ footer p{
 	text-align:center;
 }
 
+.small h2{
+	
+}
+
+
+@media only screen and (max-width: 47.500em) {
+.small-thumb{
+	width:50%;
+	float:  none;
+	
+	
+}
+}
+	
+	
+.small{
+	min-width:300px;
+}
 .current{
 	color:#1C4778;
 }
@@ -33,7 +51,6 @@ footer p{
 	margin-top: 40px;
 	margin-bottom:-10px;
 }
-
 
 
 .products li{
