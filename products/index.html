@@ -2,16 +2,18 @@
 layout: products
 title: Products
 ---
-
-<h1>Products</h1>
-<h2>Shirts</h2>
+<div class="bodyc-p">
 
 <ul>
-	{% for product in site.pages %}
-		{% if product.category == 'shirts' %}
-			<li>
-				{{product.title}}
-			</li>
-		{% endif %}
-	{% endfor %}
+	<h1>Products</h1>
+	<h2>Shirts</h2>
+	<img src="{{site.baseurl}}/assets/product1.jpg">
+	<li><a class="btn giga" href="{{site.baseurl}}/products/shirts/">Go To Shirts Page</a></li>
+</ul>
 <ul>
+	<h2>Shoes</h2>
+	<img src="{{site.baseurl}}/assets/product6.jpg">
+	<li><a class="btn giga" href="{{site.baseurl}}/products/shoes/">Go To Shoes Page</a></li>
+	
+</ul>
+</div>

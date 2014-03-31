@@ -29,7 +29,14 @@
 	display:block;
 	width:100%;
 	z-index:100;
+	background-color:transparent;
 }
+
+
+.list-group-item-inline:nth-child(1){
+	margin: 20px 0 0 -40px;
+}
+
 
 .nav-ist{
 	z-index:100;
