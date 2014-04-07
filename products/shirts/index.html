@@ -10,7 +10,7 @@ title: Products
 	{% for product in site.pages %}
 		{% if product.category == 'shirts' %}
 			<li>
-				{{product.title}}
+				<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>
 			</li>
 		{% endif %}
 	{% endfor %}

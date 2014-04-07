@@ -1,6 +1,6 @@
 ---
 title: Black Shirt
-layout: default
+layout: products
 category: shirts
 name: Black Shirt
 image: air-dinos/pteranodon.jpg
