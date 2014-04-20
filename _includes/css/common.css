@@ -17,11 +17,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353649', end
 	margin-top: 50px;
 	color: #fff;
 	padding: 0 30% 0 30%;
+	margin-bottom: 50px;
 }
 
 .bodyc-p img{
 	border-top: inset 20px #00C8FF;
 	width:100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 
@@ -38,6 +41,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353649', end
 	margin-top: 50px;
 	color: #fff;
 	padding: 0 30% 0 30%;
+	margin-bottom: 50px;
 }
 
 footer p{
@@ -78,6 +82,12 @@ footer p{
 
 .large{
 	height: 270px;
+}
+	
+	
+	.bodyc-p{
+	width: 70%;
+	margin-left: -17%;
 }
 	
 }
@@ -184,10 +194,23 @@ nav-bottom p{
 	line-height: 80px;
 	text-align: center;
 }
+
+	.banner-about h2{
+	font-size:80px;
+	background-color: rgba(36,36,36,0.79);
+	left:0px;
+	margin-left:50px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.banner-about{
+	background-position: -75% 900px;
 }
 
 
 
+}
 
 
 @media only screen and (max-width: 26.9em) {
@@ -216,7 +239,9 @@ nav-bottom p{
 	margin-left:-40px;
 }
 
-
+.bodyc-p{
+	margin-top:150px;
+}
 }
 
 <!------Search bar -------------------------------------------------------------->

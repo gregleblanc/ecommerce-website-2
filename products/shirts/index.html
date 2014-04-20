@@ -1,17 +1,25 @@
 ---
-layout: products
+layout: default
 title: Products
 ---
 
-<h1>Products</h1>
-<h2>Shirts</h2>
+<div class="bodyc-p">
+
+
 
 <ul>
+	<h1>Products</h1>
+<h2>Shirts</h2>
 	{% for product in site.pages %}
 		{% if product.category == 'shirts' %}
 			<li>
-				<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>
+				<img src="{{site.baseurl}}/assets/{{product.image}}" alt="{{product.title}}">
+				<h2> <a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a> </h2>
+				<p>{{product.description}}</p>
+				<h4>{{product.price}}<h4>
 			</li>
 		{% endif %}
 	{% endfor %}
-<ul>
+</ul>
+
+</div>

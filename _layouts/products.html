@@ -2,6 +2,29 @@
 layout: default
 ---
 
+<div class="bodyc-p">
+
 <h1>{{page.name}}</h1>
 
+
+
+
+
+	<a href="{{site.baseurl}}/" ><img class="small-thumb" src="{{site.baseurl}}/assets/{{page.image}}" alt="{{page.name}}"></a>
+		<h4>{{page.name}}</h4>
+			<p>{{page.description}}</p>
+		<h2 class="yota">{{page.price}}</h2>
+		<select>
+  <option value="Small">Small</option>
+  <option value="Medium">Medium</option>
+  <option value="Large">Large</option>
+  <option value="XL">Extra Large</option>
+</select>
+	<a class="btn giga" href="{{site.baseurl}}/cart/" alt="Add to Cart">+CART</a>
+
+
+
+
 {{content}}
+
+</div>
