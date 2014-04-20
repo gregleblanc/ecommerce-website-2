@@ -13,6 +13,9 @@ background: linear-gradient(to bottom, #353649 0%,#353649 52%,#000000 100%); /* 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353649', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
 
+
+
+
 .bodyc-p{
 	margin-top: 50px;
 	color: #fff;
@@ -228,6 +231,7 @@ nav-bottom p{
 
 
 .nav-list{
+	width: 100%;
 	margin-left:30%;
 }
 @media only screen and (max-width: 42.9em) {
